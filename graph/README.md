@@ -11,3 +11,7 @@
   - 基本思路：Union set，用数组conn记录链接，用find函数查找set
   - set count查询：用计数器记录当前set个数，connect时做必要更新，query时直接返回计数
   - 注意：数组不要越界访问
+
+### 805. Maximum Association Set
+  - Union set。更新期间记录set大小和最大set信息，最后整体遍历一遍找出所有最大集的元素
+  - 注意：最后遍历找出最大集时别忘了加上根节点自己
